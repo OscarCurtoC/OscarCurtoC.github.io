@@ -212,6 +212,21 @@ input, select, textarea {
 		margin: 0 0 1.5rem 0;
 	}
 
+	article h3 a {
+		display: inline-block; /* Permite aplicar padding y background */
+		padding: 0.5rem 1rem; /* Ajusta el padding para el tamaño del rectángulo */
+		background-color: #f0f0f0; /* Color de fondo del rectángulo */
+		color: #000; /* Color del texto */
+		text-decoration: none; /* Elimina el subrayado del enlace */
+		border-radius: 4px; /* Opcional: Redondea las esquinas del rectángulo */
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: Añade una sombra al rectángulo */
+		transition: background-color 0.3s; /* Opcional: Transición suave para el cambio de color */
+	}
+	/*Cambia el color de fondo cuando el enlace es hover */
+	article h3 a:hover {
+    background-color: #e0e0e0; /* Color de fondo cuando se pasa el ratón */
+}
+
 	h4 {
 		font-size: 1rem;
 	}
