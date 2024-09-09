@@ -311,10 +311,10 @@ input, select, textarea {
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
-		a:hover {
+		/*a:hover {
 			border-bottom-color: transparent;
 			color: #18bfef !important;
-		}
+		}*/
 
 	strong, b {
 		color: #212931;
@@ -3548,10 +3548,10 @@ input, select, textarea {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
-			#header a:hover {
+			/*#header a:hover {
 				border-bottom-color: transparent;
 				color: #18bfef !important;
-			}
+			}*/
 
 		#header strong, #header b {
 			color: #ffffff;
@@ -3593,10 +3593,10 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-			#header .logo:hover {
+			/*#header .logo:hover {
 				border-color: #18bfef !important;
 				color: #18bfef !important;
-			}
+			}*/
 
 		@media screen and (max-width: 980px) {
 
