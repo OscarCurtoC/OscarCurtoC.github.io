@@ -211,7 +211,6 @@ input, select, textarea {
 		font-size: 1.25rem;
 		margin: 0 0 1.5rem 0;
 	}
-
 	article h3 a {
 		display: inline-block; /* Permite aplicar padding y background */
 		padding: 0.5rem 1rem; /* Ajusta el padding para el tamaño del rectángulo */
@@ -2926,8 +2925,6 @@ input, select, textarea {
 
 	header {
 		cursor: default;
-		border-bottom: dashed 1px #eeeeee4f;
-		margin-bottom: 30px;
 	}
 
 		header > .date {
@@ -3867,6 +3864,11 @@ input, select, textarea {
     border-style: solid;
     border-top-width: 2px;
     text-align: center;
+}
+
+#main > .posts > article header {
+    border-bottom: dashed 1px #eeeeee4f;
+	margin-bottom: 30px;
 }
 
 #main > .posts > article > :last-child {
