@@ -2926,6 +2926,8 @@ input, select, textarea {
 
 	header {
 		cursor: default;
+		border-bottom: dashed 1px #eeeeee4f;
+		margin-bottom: 30px;
 	}
 
 		header > .date {
