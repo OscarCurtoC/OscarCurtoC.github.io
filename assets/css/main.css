@@ -215,7 +215,7 @@ input, select, textarea {
 	article h3 a {
 		display: inline-block; /* Permite aplicar padding y background */
 		padding: 0.5rem 1rem; /* Ajusta el padding para el tamaño del rectángulo */
-		background-color: #f0f0f0; /* Color de fondo del rectángulo */
+		background-color: #dbdbdb; /* Color de fondo del rectángulo */
 		color: #000; /* Color del texto */
 		text-decoration: none; /* Elimina el subrayado del enlace */
 		border-radius: 4px; /* Opcional: Redondea las esquinas del rectángulo */
@@ -224,7 +224,7 @@ input, select, textarea {
 	}
 	/*Cambia el color de fondo cuando el enlace es hover */
 	article h3 a:hover {
-    background-color: #e0e0e0; /* Color de fondo cuando se pasa el ratón */
+    background-color: #a7e0ff; /* Color de fondo cuando se pasa el ratón */
 }
 
 	h4 {
@@ -321,7 +321,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #e4e4e4;
 	}
 
 	blockquote {
@@ -3773,7 +3773,8 @@ input, select, textarea {
 /* Main */
 
 #main {
-    background-color: #ffffff;
+	color: #eeeeee;
+    background-color: #1e2021;
     position: relative;
     margin: 0 auto;
     width: calc(100% - 4rem);
@@ -3927,7 +3928,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
+		background-color: #3b3b3b;
 		color: #909498;
 		cursor: default;
 		position: relative;
@@ -3956,7 +3957,7 @@ input, select, textarea {
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: #b5bdc5;
 		}
 
 		#footer blockquote {
@@ -4267,6 +4268,7 @@ input, select, textarea {
 		#footer form label,
 		#footer h3,
 		#footer p {
+			color: #e2e2e2;
 			font-size: 0.8rem;
 		}
 
