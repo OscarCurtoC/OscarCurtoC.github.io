@@ -3867,7 +3867,7 @@ input, select, textarea {
 }
 
 #main > .posts > article header {
-    border-bottom: dashed 1px #eeeeee4f;
+    border-bottom: dashed 1px #eeeeee;
 	margin-bottom: 30px;
 }
 
